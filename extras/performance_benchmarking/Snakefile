@@ -5,9 +5,9 @@ runs = {
 # runs = {'illumina': ['DRR083195']} # debug
 run_to_type = {run: run_type for run_type, run_list in runs.items() for run in run_list}
 data_dir = 'snakedata'
-singlems = ['0.19.0', '0.20.3', 'dev']#,'singlem-hmmer-rs']
+singlems = ['0.19.0', '0.20.3', '0.21.0', 'dev']#,'singlem-hmmer-rs']
 singlems = [s.replace('.', '-') for s in singlems]
-metapackage = '/work/microbiome/db/singlem/S5.4.0.GTDB_r226.metapackage_20250331.smpkg.zb'
+metapackage = '/work/microbiome/db/singlem/S6.5.0.GTDB_r232.metapackage_20260319.smpkg.zb'
 
 import glob as _glob
 genome_datasets = {
